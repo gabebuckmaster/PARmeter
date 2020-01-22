@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name PARmeter)(type Legacy)(uri ${KIPRJMOD}/PARmeter.lib)(options "")(descr ""))
+  (lib (name powersupply)(type Legacy)(uri /Users/jgb/Documents/kicad/Circuit_Snacks/Power_Supply/powersupply.lib)(options "")(descr ""))
+)

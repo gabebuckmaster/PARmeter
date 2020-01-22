@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name PARmeter)(type KiCad)(uri ${KIPRJMOD}/PARmeter.pretty)(options "")(descr ""))
+  (lib (name powersupply)(type KiCad)(uri /Users/jgb/Documents/kicad/Circuit_Snacks/Power_Supply/powersupply.pretty)(options "")(descr ""))
+)

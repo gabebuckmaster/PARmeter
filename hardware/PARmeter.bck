@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HRO_K1-520XUA-0X
+K HRO K1-5202UA K1-5203UA
+F https://datasheet.lcsc.com/szlcsc/Korean-Hroparts-Elec-K1-5202UA-03_C145899.pdf
+$ENDCMP
+#
+$CMP HRO_K1-520XUA-XX
+K HRO K1-5202UA K1-5203UA
+F https://datasheet.lcsc.com/szlcsc/Korean-Hroparts-Elec-K1-5202UA-03_C145899.pdf
+$ENDCMP
+#
+#End Doc Library
