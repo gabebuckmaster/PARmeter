@@ -29,10 +29,7 @@ void setup(void)
   Wire.setSCL(PB8);
   u8g2.begin();
 
-  // Dark offsets ranged from ~70-130 on the development unit
-  // This default value prevents a dark reading of 1 umol/m^2s 
-  // in most cases and introduces < 1 umol/m^2s error
-  offset_calibration = 100; 
+  offset_calibration = 0; 
 
   // Turn user LED off - bootloader sometimes leaves it on
   pinMode(USER_LED, INPUT);
@@ -85,11 +82,10 @@ void loop(void)
   }
 
   // If the center button is pressed, save the current reading as the offset
-  /*
   if(!digitalRead(BUTTON_CENTER_N))
   {
     offset_calibration = measurement_sum;
-  } */
+  } 
 
   // Apply offset calibration without causing underflow
   if (measurement_sum > offset_calibration)
