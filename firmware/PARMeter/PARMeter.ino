@@ -16,16 +16,19 @@ void lowGain()
 {
   pinMode(PA1,INPUT);
   pinMode(PA2,INPUT);
+  digitalWrite(PA3, LOW);
   pinMode(PA3,OUTPUT);
   voltage_gain_x1000 = 3200;
 }
 
 void highGain()
 {
+  digitalWrite(PA1, LOW);
+  digitalWrite(PA2, LOW);
   pinMode(PA1,OUTPUT);
   pinMode(PA2,OUTPUT);
   pinMode(PA3,INPUT);
-  voltage_gain_x1000 = 320000;
+  voltage_gain_x1000 = 221000;
 }
 
 void setup(void) 

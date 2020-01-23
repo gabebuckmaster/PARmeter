@@ -611,7 +611,7 @@ PAR_MEAS
 Text Notes 800  5550 0    50   ~ 0
 Approx. 3mA full sunlight\nApprox. 0.3uA dim room\nDesign for 0.1 uA to 10 mA
 Text Notes 3650 7200 0    50   ~ 0
-Gain of 300\nGain of 3
+Gain of 221\nGain of 3.2
 $Comp
 L Device:C_Small C11
 U 1 1 5E17161B
