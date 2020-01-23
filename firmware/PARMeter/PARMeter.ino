@@ -85,10 +85,11 @@ void loop(void)
   }
 
   // If the center button is pressed, save the current reading as the offset
+  /*
   if(!digitalRead(BUTTON_CENTER_N))
   {
     offset_calibration = measurement_sum;
-  }
+  } */
 
   // Apply offset calibration without causing underflow
   if (measurement_sum > offset_calibration)
