@@ -3,6 +3,8 @@
 
 #include <Arduino.h>
 #include <Wire.h>
+#include <SPI.h>
+#include <SD.h>
 #include <U8g2lib.h>
 
 U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);
@@ -40,6 +42,11 @@ void setup(void)
   pinMode(BUTTON_LEFT_N, INPUT_PULLUP);
   pinMode(BUTTON_RIGHT_N, INPUT_PULLUP);
   pinMode(BUTTON_CENTER_N, INPUT_PULLUP);
+
+  if (!SD.begin(PA4)) 
+  {
+    //Serial.println("initialization failed!");
+  }
 }
 
 void loop(void) 

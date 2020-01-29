@@ -1553,4 +1553,14 @@ Wire Wire Line
 Connection ~ 7550 4300
 Wire Wire Line
 	7550 4300 7850 4300
+NoConn ~ 7500 5600
+NoConn ~ 6200 5200
+NoConn ~ 6200 5100
+NoConn ~ 6200 4800
+NoConn ~ 6200 4700
+NoConn ~ 6200 4550
+NoConn ~ 6200 4500
+NoConn ~ 6200 4400
+NoConn ~ 6200 4200
+NoConn ~ 6200 4100
 $EndSCHEMATC

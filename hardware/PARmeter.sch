@@ -1249,7 +1249,7 @@ F 3 "" H 1850 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 550  850  0    50   ~ 0
-https://raw.githubusercontent.com/rogerclarkmelbourne/STM32duino-bootloader/master/binaries/generic_boot20_pc13.bin Button: PB2/BOOT1 (seems to need pulldown), LED: PC13.
+https://raw.githubusercontent.com/rogerclarkmelbourne/STM32duino-bootloader/master/binaries/generic_boot20_pc13.bin Button: PB2/BOOT1 (needs pulldown), LED: PC13.
 $Comp
 L Device:R_Small_US R13
 U 1 1 5E147E0F
